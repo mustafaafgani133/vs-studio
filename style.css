@@ -1,0 +1,130 @@
+body.dark {
+    background-color: rgb(22, 22, 22);
+    color: rgba(240, 248, 255, 0.699);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.downloadmagicbox{
+    border: 1px solid black;
+    border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
+    border-bottom-left-radius: 1ch;
+    border-bottom-left-radius: 1ch;
+    border-bottom-right-radius: 1ch;
+    justify-items: center;
+    width: 13cm;
+    max-width: 600px;
+    margin: 50px auto ;
+    height: auto;
+    align-items: center;
+}
+.btn1{
+    padding: 5px;
+    background-color: rgb(30, 102, 165);
+    border: 0cap;
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.bit{
+    font-size: x-small;
+}
+.aside{
+    width: auto;
+    height: 200px;
+}
+.language-intro{
+    font-size: large;
+    border: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.language-lines{
+    border: 1px;
+    width: 35%;
+}
+.language-image{
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px rgb(22, 22, 22);
+    object-fit: contain;
+}
+.image{
+    width: 3cm;
+    height: 1cm;
+    border: 1px;
+}
+.image code{
+    text-align: center;
+}
+.image img{
+    width: auto;
+    height: 1cm;
+}
+.language-extension{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 2px;
+    justify-content: space-evenly;
+}
+.extension-lines{
+    width: 30%;
+    border: 2px;
+}
+.Extension-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+.imagebox2{
+   background-color: #2a2d33;
+   border-radius :15px;
+   padding: 50px;
+   display:flex;
+   justify-content: center;
+   transition: 0.3s;
+   cursor: pointer;
+}
+.imagebox2 img{
+    height: 60px;
+    width: 60px;
+    object-fit:contain ;
+}
+.more-features{
+    font-size: large;
+    justify-content: space-around;
+}
+.more-features img{
+    width: 80%;
+    height: 300px;
+    justify-content: center;
+}
+@media (max-width :768px) {
+    .language-intro{
+        flex-direction: column;
+    }
+    .language-lines,
+    .language-image{
+        width: 100%;
+    }
+@media (max-width : 768px) {
+    .language-extension{
+        flex-direction: column;
+    }
+    .extension-lines,
+    .Extension-image{
+        width: 100%;
+    }
+    }
+@media (max-width:768px) {
+    .more-features img{
+        width: 100%;
+    }
+}
